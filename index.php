@@ -9,11 +9,10 @@ if($method == 'POST'){
 		
 		case 'Program':
 			
-			$speech = "<label>Please choose the Program</label> <select id='program' onchange='programChange(this.value)'><option value='volvo-1'>Volvo-1</option>
-  <option value='saab'>Saab</option>
-  <option value='mercedes'>Mercedes</option>
-  <option value='audi'>Audi</option>
-</select>";
+			$speech = "<label>Please choose the Program</label> <select id='program' onchange='programChange(this.value)'><option value='MBA'>MBA</option>
+  <option value='MCA'>MCA</option>
+  <option value='MSC'>MSC</option>
+  </select>";
 				break;
 		
 		default:
