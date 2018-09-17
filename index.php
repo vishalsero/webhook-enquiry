@@ -12,7 +12,7 @@ if ($method == 'POST') {
         case 'Program':
             $token = getToken();
             $params = json_decode($token);
-            $enq = sendEnquire($params->access_token, $text);
+            $enq = sendEnquire($params->access_token, $json);
             echo $enq;
             $speech = "<label>Please choose the Program</label> <select id='program' onchange='programChange(this.value)'><option value='MBA'>MBA</option>
             <option value='MCA'>MCA</option>
