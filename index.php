@@ -9,7 +9,7 @@ if($method == 'POST'){
 		
 		case 'Program':
 			
-			$speech = "Please choose the Program: <select><option value='volvo'>Volvo</option>
+			$speech = "<label>Please choose the Program:</label> <select><option value='volvo'>Volvo</option>
   <option value='saab'>Saab</option>
   <option value='mercedes'>Mercedes</option>
   <option value='audi'>Audi</option>
