@@ -7,7 +7,7 @@ if($method == 'POST'){
 	$text = $json->result->action;
 	switch ($text) {
 		
-		case 'Modules':
+		case 'Program':
 			
 			$speech = "<select><option value='volvo'>Volvo</option>
   <option value='saab'>Saab</option>
